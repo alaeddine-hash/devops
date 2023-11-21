@@ -83,7 +83,7 @@ public class ProjectRequest {
                 Objects.equals(gradleVersion, that.gradleVersion) &&
                 Objects.equals(archive, that.archive) &&
                 Objects.equals(projectName, that.projectName) &&
-                Objects.equals(packageName, that.packageName);
+            Objects.equals(packageName, that.packageName);
     }
 
     @Override
